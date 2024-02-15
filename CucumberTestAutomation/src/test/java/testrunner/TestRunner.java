@@ -10,9 +10,9 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 
 		features = { "src/test/resources/AppFeatures" }, glue = { "stepdefinitions", "apphooks" },plugin = {"pretty"}
-
+		 
 )
 
 public class TestRunner {
-
+ 
 }
